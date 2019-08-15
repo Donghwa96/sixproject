@@ -33,15 +33,15 @@ ALLOWED_HOSTS = ['ebdjangoproject-22.ap-northeast-2.elasticbeanstalk.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'user',
-    'blog',
-    'posts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'user',
+    'blog',
+    'posts',
     'ckeditor',
     'ckeditor_uploader',
     'imagekit',
