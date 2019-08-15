@@ -25,7 +25,7 @@ SECRET_KEY = 'h7i527c-1sx4ods1#-sg6q9rd545$7=z(ts_eecz2j2l_a21h+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ebdjangoproject-22.ap-northeast-2.elasticbeanstalk.com/']
 
 
 # Application definition
@@ -130,7 +130,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'blog', 'user', 'posts', 'static')
+    os.path.join(BASE_DIR, 'staticfiles')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
